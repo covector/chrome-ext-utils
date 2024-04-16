@@ -14,11 +14,11 @@ function combine(arr1, arr2) {
 }
 
 function getList() {
-    return document.getElementsByClassName("character-grid")[2].getElementsByClassName("character-grid__items")[0].children;
+    return document.getElementsByClassName("character-grid")[2].getElementsByClassName("subject-character-grid__items")[0].children;
 }
 
 function getWord(entry) {
-    return entry.getElementsByClassName("character-item__characters")[0].textContent;
+    return entry.getElementsByClassName("subject-character__characters")[0].textContent;
 }
 
 verbEnd = ["す", "く", "ぐ", "ぶ", "む", "ぬ", "る", "う", "つ"];
